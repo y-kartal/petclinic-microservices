@@ -85,7 +85,10 @@
             </activation>
             <build>
                 <plugins>
+<<<<<<< HEAD
                 
+=======
+>>>>>>> practice
                         <plugin>
                             <groupId>org.jacoco</groupId>
                             <artifactId>jacoco-maven-plugin</artifactId>
@@ -106,9 +109,12 @@
                                 </execution>
                             </executions>
                         </plugin>
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> practice
                     <plugin>
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-maven-plugin</artifactId>
