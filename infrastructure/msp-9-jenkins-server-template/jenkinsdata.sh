@@ -35,10 +35,5 @@ pip3 install ansible
 # install boto3
 pip3 install boto3 botocore
 # install terraform
-<<<<<<< HEAD
 wget https://releases.hashicorp.com/terraform/1.4.6/terraform_1.4.6_linux_amd64.zip
 unzip terraform_1.4.6_linux_amd64.zip -d /usr/local/bin
-=======
-wget https://releases.hashicorp.com/terraform/1.7.4/terraform_1.7.4_linux_amd64.zip
-unzip terraform_1.7.4_linux_amd64.zip -d /usr/local/bin
->>>>>>> practice
