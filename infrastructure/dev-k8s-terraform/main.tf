@@ -147,8 +147,8 @@ EOF
   managed_policy_arns = ["arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"]
 }
 
-resource "aws_iam_instance_profile" "petclinic-master-server-profile" {
-  name = "petclinic-master-server-profile"
+resource "aws_iam_instance_profile" "petclinic-master-server-profile1" {
+  name = "petclinic-master-server-profile1"
   role = aws_iam_role.petclinic-master-server-s3-role.name
 }
 
