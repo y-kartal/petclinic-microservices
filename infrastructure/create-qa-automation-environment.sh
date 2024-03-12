@@ -1,3 +1,4 @@
+# Environment variables
 PATH="$PATH:/usr/local/bin"
 ANS_KEYPAIR="petclinic-ansible-test-dev.key"
 AWS_REGION="us-east-1"
